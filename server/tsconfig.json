@@ -1,13 +1,11 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
-    "composite": true /* Enable project references. */,
-    /* Modules */
-    "rootDir": "src" /* Specify the root folder within your source files. */,
+    "composite": true,
+  
+    "rootDir": "src",
 
-    /* Emit */
-    "outDir": "dist" /* Specify an output folder for all emitted files. */
-    // "noEmitOnError": true /* Disable emitting files if any type checking errors are reported. */
+    "outDir": "dist" 
   },
   "include": ["src", "**/*.json"],
   "typeRoots": ["./node_modules/@types", "./src/types"]

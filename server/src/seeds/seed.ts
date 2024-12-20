@@ -8,7 +8,6 @@ try {
   await db();
   await cleanDB();
 
-  // bulk create each model
   await Question.insertMany(questionData);
 
   console.log('Seeding completed successfully!');
